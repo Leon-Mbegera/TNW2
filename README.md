@@ -12,7 +12,7 @@ The webpage is focused of showing positioning of elements using grid, flexbox an
 
 <i>Built With HTML5, CSS3, GIT, and VSCODE</i>
 
-Live Demo : [The-livedemo-link](https://leon-mbegera.github.io/TNW2/.)
+Live Demo : [https://leon-mbegera.github.io/TNW2/.]
 
 <h1>Getting Started</h1>
 
