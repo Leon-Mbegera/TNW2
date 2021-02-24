@@ -903,7 +903,6 @@ footer {
   .mobile-top-nav {
     display: flex;
     justify-content: space-between;
-    display: none;
   }
 
   .tnw-logo {
