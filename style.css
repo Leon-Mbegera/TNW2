@@ -5,6 +5,14 @@ body {
   
   .container-768 { display: none; }
   .mobile-top-nav { display: none; }
+
+  .nav-top {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+  }
   
   .top-bar {
     display: flex;
@@ -12,7 +20,7 @@ body {
     background-color: rgb(0, 0, 0);
     padding: 0.4rem;
   }
-  
+
   .top-left-bar a,
   .top-right-bar a {
     text-decoration: none;
@@ -63,6 +71,7 @@ body {
     margin-bottom: 8vh;
     margin-right: 3px;
     margin-left: 3px;
+    margin-top: 6rem;
   }
   
   .first {
@@ -137,15 +146,6 @@ body {
     text-decoration: none;
   }
   
-  .ln-head {
-    display: flex;
-    width: 86%;
-    height: auto;
-    margin-left: auto;
-    justify-content: flex-start;
-    padding-bottom: 5px;
-  }
-  
   .ln-head-text {
     color: #f43;
     font-weight: 900;
@@ -153,13 +153,12 @@ body {
   }
   
   .latest-news {
-    width: 86%;
-    height: auto;
-    margin: auto;
+    width: 87%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    column-gap: 10px;
+    column-gap: 2px;
     margin-bottom: 8vh;
   }
   
