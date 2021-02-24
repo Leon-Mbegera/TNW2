@@ -61,7 +61,7 @@ body {
   background-color: #ffe600;
 }
 
-.top-third>a {
+.top-third > a {
   text-decoration: none;
   padding-left: 0.4rem;
 }
@@ -212,7 +212,7 @@ body {
   display: flex;
 }
 
-.section-heading>a {
+.section-heading > a {
   text-decoration: none;
 }
 
@@ -903,9 +903,6 @@ footer {
   .mobile-top-nav {
     display: flex;
     justify-content: space-between;
-  }
-
-  .mobile-top-nav {
     display: none;
   }
 
@@ -1122,7 +1119,11 @@ footer {
     text-decoration: none;
   }
 
-  .fa-s>div>a {
+  .info-cards a {
+    text-decoration: none;
+  }
+
+  .fa-s > div > a {
     text-decoration: none;
   }
 
@@ -1272,10 +1273,6 @@ footer {
     position: absolute;
     top: 10px;
     left: 10px;
-  }
-
-  .info-cards a {
-    text-decoration: none;
   }
 
   .top-title-1 {
