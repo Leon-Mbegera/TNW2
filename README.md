@@ -12,13 +12,13 @@ The webpage is focused of showing positioning of elements using grid, flexbox an
 
 <i>Built With HTML5, CSS3, GIT, and VSCODE</i>
 
-Live Demo : [The-livedemo-link](https://github.com/Leon-Mbegera/TNW2)
+Live Demo : [The-livedemo-link](https://leon-mbegera.github.io/TNW2/.)
 
 <h1>Getting Started</h1>
 
 To get a local copy up and running follow these simple example steps.
 
-1. Go to https://github.com/Leon-Mbegera/TNW2/
+1. Go to https://leon-mbegera.github.io/TNW2/./
 2. Click on code and copy the html code.
 3. Use git bash to clone this repository on your local machine.
 4. Run git checkout -b your-branch-name Make your contributions
