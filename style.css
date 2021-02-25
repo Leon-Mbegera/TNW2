@@ -1,0 +1,1463 @@
+body {
+  margin: 0;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.mobile-top-nav,
+.container-768,
+.tnw-logo {
+  display: none;
+}
+
+.nav-top {
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+}
+
+.top-bar {
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  padding: 0.4rem;
+  display: flex;
+}
+
+.top-left-bar a,
+.top-right-bar a {
+  color: rgb(172, 172, 172);
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+  text-decoration: none;
+}
+
+.top-second {
+  justify-content: space-between;
+  padding: 0.8rem;
+  background-color: rgb(253, 253, 253);
+  display: flex;
+}
+
+.top-second-left a,
+.top-second-right a {
+  color: rgb(131, 131, 131);
+  font-size: 0.8rem;
+  font-weight: 200;
+  padding-right: 0.4rem;
+  text-decoration: none;
+}
+
+.top-second-right a {
+  padding-left: 5px;
+  border-left: 1px solid rgb(131, 131, 131);
+  padding-right: 20px;
+}
+
+.top-third {
+  padding: 0.4rem;
+  font-size: 0.8rem;
+  background-color: #ffe600;
+}
+
+.top-third > a {
+  text-decoration: none;
+  padding-left: 0.4rem;
+}
+
+.section-one {
+  width: 100%;
+  height: 65vh;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 5px;
+  margin-bottom: 8vh;
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top: 6rem;
+  display: grid;
+}
+
+.first {
+  grid-area: 1 / 1 / 3 / 2;
+  background-image:
+    linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 40%, rgba(255, 68, 51, 0.8) 100%),
+    url("./images/Opal-796x417.jpg");
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+.tnw-logo {
+  margin: 20px 0 0 20px;
+  width: 50%;
+}
+
+.second {
+  grid-area: 1 / 2 / 2 / 3;
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 50%
+    ),
+    url("./images/Apps.jpeg");
+  background-size: cover;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+}
+
+.third {
+  grid-area: 2 / 2 / 3 / 3;
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 50%
+    ),
+    url("./images/MacApp.jpg");
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+.first-text,
+.second-text,
+.third-text {
+  bottom: 0;
+  left: 0.8rem;
+  position: absolute;
+}
+
+.first-text h1 {
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 200%;
+}
+
+.first-text p {
+  font-size: 80%;
+}
+
+.second-text h1,
+.third-text h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+.second-text p,
+.third-text p {
+  font-size: 60%;
+}
+
+.first-text a,
+.second-text a,
+.third a {
+  text-decoration: none;
+  color: white;
+}
+
+.ln-head-text {
+  font-weight: 900;
+  margin-left: 6rem;
+  color: #f43;
+}
+
+.latest-news {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2px 4px;
+  margin-bottom: 8vh;
+  width: 87%;
+}
+
+.latest-news > div {
+  margin-bottom: 10px;
+}
+
+.latest-news > div > img {
+  width: 280px;
+}
+
+.news-img-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.news-img-3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.news-img-4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.news-img-5 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.news-img-6 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.news-img-7 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.news-img-8 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+.news-img-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.latest-news span {
+  color: #555;
+}
+
+.section-heading {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 86%;
+  margin: auto;
+  display: flex;
+}
+
+.section-heading > a {
+  text-decoration: none;
+}
+
+.section-heading-left {
+  font-weight: 900;
+  color: #f43;
+}
+
+.section-heading-right {
+  padding-top: 0.8em;
+  color: #f43;
+}
+
+.funding-rounds {
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8vh;
+  width: 87%;
+}
+
+.funding-rounds p {
+  font-size: 78%;
+  color: #555;
+}
+
+.info-cards {
+  box-sizing: border-box;
+  height: 300px;
+  position: relative;
+  margin: 0 5px 0 5px;
+  width: 25%;
+}
+
+.info-cards-image {
+  height: 70px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 70px;
+}
+
+.info-cards a {
+  text-decoration: none;
+}
+
+.top-title-1 {
+  height: 50px;
+  text-align: center;
+  margin-top: -18px;
+  background-color: #f43;
+}
+
+.top-title-1 h3 {
+  color: white;
+  padding: 3px;
+}
+
+.top-title-2 {
+  text-align: center;
+  margin-top: -18px;
+  color: black;
+  background-color: #ffece7;
+}
+
+.main-section {
+  padding: 5px;
+  margin-top: -15px;
+  color: black;
+  background-color: rgb(248, 248, 248);
+}
+
+.last-section {
+  padding: 5px;
+  color: black;
+  border-top: 1px solid #fcd8cf;
+  background-color: rgb(248, 248, 248);
+}
+
+.great-mid {
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 20px;
+  width: 86%;
+  grid-template-areas:
+    "hard apps gear"
+    "tech creative podium"
+    "insights launch distract";
+  margin-bottom: 8vh;
+}
+
+.hard-fork {
+  display: flex;
+  flex-direction: column;
+}
+
+.apps {
+  display: flex;
+  flex-direction: column;
+  grid-area: apps;
+}
+
+.gear {
+  display: flex;
+  flex-direction: column;
+  grid-area: gear;
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  grid-area: tech;
+}
+
+.creative {
+  display: flex;
+  flex-direction: column;
+  grid-area: creative;
+}
+
+.podium {
+  display: flex;
+  flex-direction: column;
+  grid-area: podium;
+}
+
+.insights {
+  display: flex;
+  flex-direction: column;
+  grid-area: insights;
+}
+
+.launch {
+  display: flex;
+  flex-direction: column;
+  grid-area: launch;
+}
+
+.distract {
+  display: flex;
+  flex-direction: column;
+  grid-area: distract;
+}
+
+.hard-fork-p1 {
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("./images/Gamestop.jpg");
+  height: 250px;
+  color: #fff;
+  position: relative;
+  background-size: cover;
+}
+
+.apps-p1 {
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("./images/Gamestop.jpg");
+  background-size: cover;
+  height: 250px;
+  color: #fff;
+  position: relative;
+}
+
+.gear-p1 {
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("./images/Gamestop.jpg");
+  background-size: cover;
+  height: 250px;
+  color: #fff;
+  position: relative;
+}
+
+.tech-p1 {
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("./images/Gamestop.jpg");
+  background-size: cover;
+  height: 250px;
+  color: #fff;
+  position: relative;
+}
+
+.creative-p1 {
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("./images/Gamestop.jpg");
+  background-size: cover;
+  height: 250px;
+  color: #fff;
+  position: relative;
+}
+
+.podium-p1 {
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("./images/Gamestop.jpg");
+  background-size: cover;
+  height: 250px;
+  color: #fff;
+  position: relative;
+}
+
+.insights-p1 {
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("./images/Gamestop.jpg");
+  background-size: cover;
+  height: 250px;
+  color: #fff;
+  position: relative;
+}
+
+.launch-p1 {
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("./images/Gamestop.jpg");
+  background-size: cover;
+  height: 250px;
+  color: #fff;
+  position: relative;
+}
+
+.distract-p1 {
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
+    url("./images/Gamestop.jpg");
+  background-size: cover;
+  height: 250px;
+  color: #fff;
+  position: relative;
+}
+
+.apps h2,
+.tech h2,
+.gear h2,
+.creative h2,
+.podium h2,
+.insights h2,
+.launch h2,
+.hard-fork h2,
+.distract h2 {
+  font-weight: 900;
+  color: #f42;
+}
+
+.apps-p1-text,
+.tech-p1-text,
+.gear-p1-text,
+.creative-p1-text,
+.podium-p1-text,
+.insights-p1-text,
+.launch-p1-text,
+.hard-fork-p1-text,
+.distract-p1-text {
+  bottom: 0;
+  left: 0.8rem;
+  position: absolute;
+}
+
+.apps-p2-text p,
+.tech-p2-text p,
+.gear-p2-text p,
+.creative-p2-text p,
+.podium-p2-text p,
+.insights-p2-text p,
+.launch-p2-text p,
+.hard-fork-p2-text p,
+.distract-p2-text p {
+  font-size: 14px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.latest-deals p {
+  font-weight: 700;
+  color: rgb(99, 99, 99);
+  margin-top: 0;
+  font-size: 100%;
+}
+
+.last-line p {
+  padding-top: 60px;
+  color: white;
+}
+
+.apps-p1-text h3 h5 p,
+.tech-p1-text h3 h5 p,
+.gear-p1-text h3 h5 p,
+.creative-p1-text h3 h5 p,
+.podium-p1-text h3 h5 p,
+.insights-p1-text h3 h5 p,
+.launch-p1-text h3 h5 p,
+.hard-fork-p1-text h3 h5 p,
+.distract-p1-text h3 h5 p {
+  margin-block-end: 0.3rem;
+  margin-block-start: 0.3rem;
+}
+
+.apps-p2,
+.tech-p2,
+.gear-p2,
+.creative-p2,
+.podium-p2,
+.insights-p2,
+.launch-p2,
+.hard-fork-p2,
+.distract-p2 {
+  background-color: rgba(255, 68, 34, 0.06);
+  margin-top: 2px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.apps-p2-text,
+.tech-p2-text,
+.gear-p2-text,
+.creative-p2-text,
+.podium-p2-text,
+.insights-p2-text,
+.launch-p2-text,
+.hard-fork-p2-text,
+.distract-p2-text {
+  padding: 0 5px 0 5px;
+  display: flex;
+  flex-direction: column;
+  color: #f42;
+}
+
+.apps-p2-text h5,
+.tech-p2-text h5,
+.gear-p2-text h5,
+.creative-p2-text h5,
+.podium-p2-text h5,
+.insights-p2-text h5,
+.launch-p2-text h5,
+.hard-fork-p2-text h5,
+.distract-p2-text h5 {
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.hard-fork ul,
+.gear ul,
+.tech ul,
+.creative ul,
+.podium ul,
+.insights ul,
+.launch ul,
+.apps ul,
+.distract ul {
+  list-style: none;
+  padding-left: 1em;
+}
+
+.apps ul li,
+.gear ul li,
+.tech ul li,
+.creative ul li,
+.podium ul li,
+.insights ul li,
+.launch ul li,
+.hard-fork ul li,
+.distract ul li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 2px 0 4px 0;
+  color: #555;
+}
+
+.hard-fork ul li::before {
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  content: "\2022";
+}
+
+.apps ul li::before {
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  content: "\2022";
+}
+
+.gear ul li::before {
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  content: "\2022";
+}
+
+.tech ul li::before {
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  content: "\2022";
+}
+
+.creative ul li::before {
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  content: "\2022";
+}
+
+.podium ul li::before {
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  content: "\2022";
+}
+
+.insights ul li::before {
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  content: "\2022";
+}
+
+.launch ul li::before {
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  content: "\2022";
+}
+
+.distract ul li::before {
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  content: "\2022";
+}
+
+.img-great-mid {
+  height: 96px;
+  width: 96px;
+}
+
+.ld-head {
+  width: 86%;
+  height: auto;
+  margin: auto;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  display: flex;
+}
+
+.ld-image {
+  width: 100%;
+  height: auto;
+}
+
+.left-ld-head {
+  text-decoration: none;
+  font-size: 28px;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+  color: #f42;
+}
+
+.right-ld-head {
+  text-decoration: none;
+  font-size: 18px;
+  color: #f42;
+}
+
+.left-ld-head:hover,
+.right-ld-head:hover {
+  color: #000;
+}
+
+.latest-deals {
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+  margin-bottom: 12vh;
+  width: 86%;
+}
+
+.latest-deals a {
+  font-size: 17px;
+  font-weight: 800;
+  color: #000;
+  text-decoration: none;
+}
+
+.latest-deals a:hover {
+  color: #f42;
+}
+
+.latest-deals span {
+  margin-right: 5px;
+  padding-right: 5px;
+  font-size: 75%;
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: line-through;
+}
+
+.ld-img-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.ld-img-3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.ld-img-4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.ld-img-5 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.ld-img-6 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.ld-img-7 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.ld-img-8 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+.ld-img-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+.news-img-wording {
+  display: block;
+  margin-top: 0;
+}
+
+.before-last {
+  width: 100%;
+  background-color: rgb(29, 26, 26);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 55%;
+}
+
+.before-last-top {
+  display: flex;
+  padding-top: 40px;
+}
+
+.social-sites {
+  height: 20px;
+  border-radius: 50%;
+  background-color: gray;
+  padding: 10px;
+  margin-right: 15px;
+  width: 20px;
+}
+
+.before-last-bottom {
+  display: flex;
+  padding-top: 10px;
+}
+
+.text-last {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 14px;
+  padding: 10px 5px 10px 5px;
+}
+
+.last-line {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  height: 45%;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  nav {
+    display: flex;
+  }
+
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  .container-768 {
+    width: 10vw;
+    display: block;
+  }
+
+  .logo-for-768-logo {
+    background: black;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .top-bar {
+    width: 90vw;
+    height: auto;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .top-left-bar a,
+  .top-right-bar a {
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+    font-size: 0.7em;
+  }
+
+  .top-left-bar a {
+    padding-left: 3px;
+  }
+
+  .top-right-bar a {
+    padding-right: 3px;
+  }
+
+  .top-second {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    right: 0;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+    background-color: rgb(253, 253, 253);
+  }
+
+  .top-second-left a,
+  .top-second-right a {
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+    font-size: 0.75em;
+    font-weight: 200;
+  }
+
+  .top-second-left a {
+    padding-left: 15px;
+  }
+
+  .top-second-right a {
+    padding-right: 10px;
+    padding-left: 5px;
+    border-left: 1px solid rgb(131, 131, 131);
+  }
+
+  .mobile-top-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tnw-logo {
+    display: none;
+  }
+
+  .section-one {
+    font-size: 70%;
+    width: 98vw;
+  }
+
+  .first {
+    background-image:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 50%
+      ),
+      url("./images/Opal-796x417.jpg");
+  }
+
+  .ln-head {
+    display: flex;
+    width: 95vw;
+    height: auto;
+    margin: auto;
+    justify-content: flex-start;
+    padding-bottom: 5px;
+  }
+
+  .latest-news {
+    width: 95vw;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 8vh;
+  }
+
+  .news-img-1,
+  .news-img-2,
+  .news-img-3,
+  .news-img-4,
+  .news-img-5,
+  .news-img-6,
+  .news-img-7,
+  .news-img-8 {
+    display: flex;
+    flex-direction: column;
+    font-size: 85%;
+    padding-bottom: 10px;
+  }
+
+  .news-img-1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .news-img-2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .news-img-3 {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+
+  .news-img-4 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .news-img-5 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .news-img-6 {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+
+  .news-img-7 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .news-img-8 {
+    grid-area: 3 / 2 / 4 / 3;
+  }
+
+  .section-heading {
+    font-size: 85%;
+  }
+
+  .info-cards {
+    width: auto;
+  }
+
+  .great-mid {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "hard apps"
+      "gear tech"
+      "creative podium"
+      "insights launch"
+      "distract . ";
+    margin-bottom: 8vh;
+  }
+
+  .ld-head {
+    display: flex;
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    font-size: 60%;
+  }
+
+  .latest-deals {
+    width: 95vw;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 8vh;
+  }
+
+  .ld-img-1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .ld-img-2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .ld-img-3 {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+
+  .ld-img-4 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .ld-img-5 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .ld-img-6 {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+
+  .ld-img-7 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .ld-img-8 {
+    grid-area: 3 / 2 / 4 / 3;
+  }
+
+  .ld-img-1,
+  .ld-img-2,
+  .ld-img-3,
+  .ld-img-4,
+  .ld-img-5,
+  .ld-img-6,
+  .ld-img-7,
+  .ld-img-8 {
+    font-size: 80%;
+  }
+
+  footer {
+    width: 99vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-container {
+    display: none;
+  }
+
+  .mobile-top-nav {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    height: 12vh;
+    width: 98vw;
+    position: fixed;
+    z-index: 2;
+    background-color: rgb(253, 253, 253);
+  }
+
+  .container-768-mobile {
+    background: black;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-for-768-logo-mobile {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fa-s {
+    display: flex;
+    padding-left: 10px;
+    text-decoration: none;
+  }
+
+  .info-cards a,
+  .fa-s > div > a {
+    text-decoration: none;
+  }
+
+  .mobile-top-nav i {
+    display: block;
+    height: 48px;
+    opacity: 0.25;
+    width: 30px;
+    padding-top: 4vh;
+  }
+
+  .section-one {
+    font-size: 40%;
+    display: grid;
+    width: 100vw;
+    height: 80vh;
+    grid-template-columns: 96vw;
+    grid-template-rows: 25vh 25vh 25vh;
+    margin-top: 12vh;
+  }
+
+  .first {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 50%
+      ),
+      url("./images/Opal-796x417.jpg");
+  }
+
+  .second {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .third {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .ln-head {
+    display: flex;
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    justify-content: flex-start;
+    padding-bottom: 5px;
+  }
+
+  .latest-news {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 90vw;
+    grid-template-rows: repeat(8, 20vh);
+    margin-bottom: 8vh;
+  }
+
+  .news-img-1,
+  .news-img-2,
+  .news-img-3,
+  .news-img-4,
+  .news-img-5,
+  .news-img-6,
+  .news-img-7,
+  .news-img-8 {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    padding-bottom: 10px;
+    font-size: 75%;
+  }
+
+  .news-img-1 img,
+  .news-img-2 img,
+  .news-img-3 img,
+  .news-img-4 img,
+  .news-img-5 img,
+  .news-img-6 img,
+  .news-img-7 img,
+  .news-img-8 img {
+    width: 45%;
+    padding-right: 3px;
+  }
+
+  .news-img-1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .news-img-2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .news-img-3 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .news-img-4 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+
+  .news-img-5 {
+    grid-area: 5 / 1 / 6 / 2;
+  }
+
+  .news-img-6 {
+    grid-area: 6 / 1 / 7 / 2;
+  }
+
+  .news-img-7 {
+    grid-area: 7 / 1 / 8 / 2;
+  }
+
+  .news-img-8 {
+    grid-area: 8 / 1 / 9 / 2;
+  }
+
+  .section-heading {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: auto;
+  }
+
+  .funding-rounds {
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8vh;
+  }
+
+  .info-cards {
+    width: 100%;
+    box-sizing: border-box;
+    height: 60vh;
+    position: relative;
+    margin: auto;
+    margin-bottom: 25vh;
+  }
+
+  .info-cards-image {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .top-title-1 {
+    background-color: #f43;
+    height: 50px;
+    text-align: center;
+    margin-top: -18px;
+  }
+
+  .top-title-1 h3 {
+    padding: 3px;
+    color: white;
+  }
+
+  .top-title-2 {
+    background-color: #ffece7;
+    text-align: center;
+    margin-top: -18px;
+    color: black;
+  }
+
+  .main-section {
+    background-color: rgb(248, 248, 248);
+    padding: 5px;
+    margin-top: -15px;
+    color: black;
+  }
+
+  .last-section {
+    background-color: rgb(248, 248, 248);
+    color: black;
+    border-top: 1px solid #fcd8cf;
+  }
+
+  .great-mid {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 90vw;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-areas:
+      "hard"
+      "apps"
+      "gear"
+      "tech"
+      "creative"
+      "podium"
+      "insights"
+      "launch"
+      "distract";
+    margin-bottom: 8vh;
+  }
+
+  .img-great-mid {
+    object-fit: contain;
+  }
+
+  .ld-head {
+    display: flex;
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    font-size: 60%;
+  }
+
+  .latest-deals {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 90vw;
+    grid-template-rows: repeat(8, 1fr);
+    margin-bottom: 8vh;
+  }
+
+  .ld-img-1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .ld-img-2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .ld-img-3 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .ld-img-4 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+
+  .ld-img-5 {
+    grid-area: 5 / 1 / 6 / 2;
+  }
+
+  .ld-img-6 {
+    grid-area: 6 / 1 / 7 / 2;
+  }
+
+  .ld-img-7 {
+    grid-area: 7 / 1 / 8 / 2;
+  }
+
+  .ld-img-8 {
+    grid-area: 8 / 1 / 9 / 2;
+  }
+
+  .ld-img-1,
+  .ld-img-2,
+  .ld-img-3,
+  .ld-img-4,
+  .ld-img-5,
+  .ld-img-6,
+  .ld-img-7,
+  .ld-img-8 {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    padding-bottom: 10px;
+    font-size: 75%;
+  }
+
+  .ld-img-1 img,
+  .ld-img-2 img,
+  .ld-img-3 img,
+  .ld-img-4 img,
+  .ld-img-5 img,
+  .ld-img-6 img,
+  .ld-img-7 img,
+  .ld-img-8 img {
+    max-width: 20vw;
+    padding-right: 5px;
+  }
+
+  footer {
+    width: 99vw;
+  }
+}
