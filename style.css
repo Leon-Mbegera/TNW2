@@ -319,7 +319,6 @@ body {
 .hard-fork {
   display: flex;
   flex-direction: column;
-  /* grid-area: hard; */
 }
 
 .apps {
@@ -790,6 +789,7 @@ footer {
   flex-direction: column;
   height: 300px;
 }
+
 .news-img-wording {
   display: block;
   margin-top: 0;
