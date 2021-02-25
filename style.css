@@ -163,9 +163,17 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  column-gap: 2px;
+  grid-gap: 2px 10px;
   margin-bottom: 8vh;
   width: 87%;
+}
+
+.latest-news > div {
+  margin-bottom: 10px;
+}
+
+.latest-news > div > img {
+  width: 270px;
 }
 
 .news-img-1 {
@@ -311,7 +319,7 @@ body {
 .hard-fork {
   display: flex;
   flex-direction: column;
-  grid-area: hard;
+  /* grid-area: hard; */
 }
 
 .apps {
@@ -782,6 +790,10 @@ footer {
   flex-direction: column;
   height: 300px;
 }
+.news-img-wording {
+  display: block;
+  margin-top: 0;
+}
 
 .before-last {
   width: 100%;
@@ -1100,7 +1112,7 @@ footer {
   .container-768-mobile {
     background: black;
     height: 100%;
-    width: 30%;
+    width: 25%;
     display: flex;
     justify-content: center;
   }
