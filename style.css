@@ -79,11 +79,11 @@ body {
 .first {
   grid-area: 1 / 1 / 3 / 2;
   background-image:
-   linear-gradient(
-     rgba(0, 0, 0, 1) 0%,
-     rgba(255, 255, 255, 0) 40%,
-     rgba(255, 68, 51, 0.8) 100%
-     0deg,
+    linear-gradient(
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 40%,
+      rgba(255, 68, 51, 0.8) 100%
+      0deg,
     ),
     url("./images/Opal-796x417.jpg");
   background-size: cover;
@@ -99,10 +99,10 @@ body {
 .second {
   grid-area: 1 / 2 / 2 / 3;
   background-image:
-   linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 0) 50%
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 50%
     ),
     url("./images/Apps.jpeg");
   background-size: cover;
@@ -114,10 +114,10 @@ body {
 .third {
   grid-area: 2 / 2 / 3 / 3;
   background-image:
-   linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 0) 50%
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 50%
     ),
     url("./images/MacApp.jpg");
   background-size: cover;
@@ -382,11 +382,11 @@ body {
 
 .hard-fork-p1 {
   background-image:
-   linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 0) 70%
-  ),
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
     url("./images/Gamestop.jpg");
   height: 250px;
   color: #fff;
@@ -396,11 +396,11 @@ body {
 
 .apps-p1 {
   background-image:
-   linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 0) 70%
-  ),
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+   ),
     url("./images/Gamestop.jpg");
   background-size: cover;
   height: 250px;
@@ -410,11 +410,11 @@ body {
 
 .gear-p1 {
   background-image:
-   linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 0) 70%
-  ),
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
     url("./images/Gamestop.jpg");
   background-size: cover;
   height: 250px;
@@ -424,11 +424,11 @@ body {
 
 .tech-p1 {
   background-image:
-   linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 0) 70%
-  ),
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
     url("./images/Gamestop.jpg");
   background-size: cover;
   height: 250px;
@@ -438,11 +438,11 @@ body {
 
 .creative-p1 {
   background-image:
-   linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 0) 70%
-  ),
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
     url("./images/Gamestop.jpg");
   background-size: cover;
   height: 250px;
@@ -452,11 +452,11 @@ body {
 
 .podium-p1 {
   background-image:
-   linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 0) 70%
-  ),
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
     url("./images/Gamestop.jpg");
   background-size: cover;
   height: 250px;
@@ -466,11 +466,11 @@ body {
 
 .insights-p1 {
   background-image:
-   linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-     rgba(255, 255, 255, 0) 70%
-  ),
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
     url("./images/Gamestop.jpg");
   background-size: cover;
   height: 250px;
@@ -480,11 +480,11 @@ body {
 
 .launch-p1 {
   background-image:
-   linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 0) 70%
-  ),
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
     url("./images/Gamestop.jpg");
   background-size: cover;
   height: 250px;
@@ -494,11 +494,11 @@ body {
 
 .distract-p1 {
   background-image:
-   linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 0) 70%
-  ),
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 70%
+    ),
     url("./images/Gamestop.jpg");
   background-size: cover;
   height: 250px;
@@ -972,11 +972,11 @@ footer {
 
   .first {
     background-image:
-     linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(255, 255, 255, 0) 50%
-    ),
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 50%
+      ),
       url("./images/Opal-796x417.jpg");
   }
 
@@ -1200,11 +1200,11 @@ footer {
   .first {
     grid-area: 1 / 1 / 2 / 2;
     background-image:
-     linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(255, 255, 255, 0) 50%
-    ),
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 50%
+      ),
       url("./images/Opal-796x417.jpg");
   }
 
